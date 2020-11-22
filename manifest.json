@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "SID",
+  "description": "You have reached your monthly article limit of 0 out of 10000000000000",
+  "version": "1.0",
+
+  "permissions": [
+   "activeTab",
+   "https://*/",
+   "http://*/",
+   "cookies"
+  ],
+
+  "browser_action": {},
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
